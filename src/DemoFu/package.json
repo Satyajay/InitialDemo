@@ -1,0 +1,47 @@
+{
+  "name": "FunnyRx",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "16.2.0",
+    "react-color": "^2.14.1",
+    "react-native": "0.52.0",
+    "react-native-aws3": "0.0.8",
+    "react-native-cards": "^1.1.4",
+    "react-native-color-picker": "^0.4.0",
+    "react-native-custom-toast": "^1.0.3",
+    "react-native-facebook-login": "^1.6.1",
+    "react-native-google-signin": "^0.12.0",
+    "react-native-grid-component": "^1.0.10",
+    "react-native-image-marker": "^0.2.0",
+    "react-native-image-picker": "^0.26.7",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-instagram-login": "^1.0.6",
+    "react-native-linkedin-login": "^1.44.1",
+    "react-native-swiper": "^1.5.13",
+    "react-native-tab-view": "0.0.74",
+    "react-native-twitter-signin": "^1.0.2",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-video": "^2.0.0",
+    "react-navigation": "v1.0.0-beta.26",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "babel-jest": "22.2.2",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.2.2",
+    "react-test-renderer": "16.2.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
